@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+*{
+
+box-sizing: border-box;
+
+}
+
+body{
+    /* background-image: url('./uns2.jpg'); */
+    background-image: url(./apoc2.jpg);
+font-family: 'Cinzel', serif;
+background-size: cover;
+background-position: center center;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-size: 1920px 1020px;
+background-repeat: no-repeat;
+margin: 0;
+align-items: center;
+
+
+}
+
+h1{
+    font-size: 4rem;
+    
+    color:burlywood;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    
+}
+
+
+.countdown-container{
+
+    display: flex;
+    color:burlywood;
+    text-shadow: 2px 2px 4px black;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.big-text{
+font-size: 8rem;
+line-height: 1;
+margin: 0 2rem;
+font-weight: bold;
+}
+
+.count{
+
+    text-align: center;
+font-weight:bold;
+
+}
+
+.count span{
+    font-size: 1.4rem;
+   
+}
